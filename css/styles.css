@@ -64,7 +64,6 @@ img {
 .link {
   color: #2e2f42;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.32px;
@@ -79,7 +78,6 @@ img {
 .link:hover {
   color: #404bbf;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.32px;
@@ -87,7 +85,6 @@ img {
 .link:active {
   color: #404bbf;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.32px;
@@ -195,7 +192,7 @@ img {
   background-color: #404bbf;
 }
 
-/* NAIN Section2 */
+/* MAIN Section2 */
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -226,7 +223,6 @@ img {
   display: flex;
 }
 .item-about-us-block {
-  display: block;
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .icon {
@@ -361,7 +357,7 @@ img {
   position: relative;
   overflow: hidden;
 }
-.img-our-portfolio:hover {
+.item-our-portfolio-block:hover .overlay {
   transform: translateY(0%);
 }
 .overlay {
