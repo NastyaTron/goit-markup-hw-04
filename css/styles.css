@@ -73,18 +73,7 @@ img {
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  position: relative;
-}
-.first::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  height: 4px;
-  background-color: #404bbf;
-  border-radius: 2px;
-  width: 100%;
-  color: #404bbf;
+  display: block;
 }
 .link:hover {
   color: #404bbf;
@@ -104,6 +93,21 @@ img {
 .link:focus {
   color: #404bbf;
 }
+.first {
+  position: relative;
+  color: #404bbf;
+}
+.first::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
+  width: 100%;
+}
+
 .address {
   font-style: normal;
   margin-left: auto;
