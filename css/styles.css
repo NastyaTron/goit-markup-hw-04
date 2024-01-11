@@ -61,10 +61,6 @@ img {
   gap: 40px;
   margin: 24px 0;
 }
-.pynkt-item-navigation {
-  position: relative;
-  color: #404bbf;
-}
 .link {
   color: #2e2f42;
   font-size: 16px;
@@ -77,6 +73,8 @@ img {
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  color: #404bbf;
 }
 .link:hover {
   color: #404bbf;
