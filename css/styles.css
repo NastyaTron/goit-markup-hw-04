@@ -40,7 +40,7 @@ img {
 }
 .header-two {
   display: flex;
-  justify-content: space-around;
+
   align-items: center;
 }
 .logo {
@@ -74,6 +74,16 @@ img {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
+}
+.first::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
+  width: 100%;
   color: #404bbf;
 }
 .link:hover {
@@ -94,19 +104,9 @@ img {
 .link:focus {
   color: #404bbf;
 }
-.first::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  height: 4px;
-  background-color: #404bbf;
-  border-radius: 2px;
-  width: 100%;
-}
-
 .address {
   font-style: normal;
+  margin-left: auto;
 }
 .item-address {
   display: flex;
@@ -454,8 +454,6 @@ img {
   justify-content: center;
   align-items: center;
   gap: 16px;
-  padding-bottom: 32px;
-  padding-top: 16px;
 }
 .pynkt-soc-media {
   width: 40px;
