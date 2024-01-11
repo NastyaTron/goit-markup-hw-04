@@ -93,10 +93,10 @@ img {
 .link:focus {
   color: #404bbf;
 }
-.first::after {
+.item-navigation:active::after {
   content: "";
+  width: 100%;
   border-radius: 2px;
-  color: #404bbf;
   position: absolute;
   left: 0;
   bottom: -1px;
